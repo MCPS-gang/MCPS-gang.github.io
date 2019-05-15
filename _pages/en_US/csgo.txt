@@ -1,0 +1,73 @@
+---
+title: "Installing CS:GO"
+---
+
+{% include toc title="Table of Contents" %}
+
+### Note: This is nearly the same as the [Installing a Steam Game](SSE) page, but with minor tweaks that are specific to CS:GO.
+{: .notice--primary}
+
+### What You Need
+
+* An open copy of [the legendary doc](https://docs.google.com/document/d/12zAJtsN7Z2IK86vVVhb0NsZxJGxeAG4NM8FRt9-59eg/edit?usp=sharing)
+* Enough time for CS:GO to download
+
+### Instructions
+
+1. Open the 'cs' doc and download SSE from the provided link(only if you don't already have it)
+1. Find the link called 'extra' in the doc and start downloading it
+1. Find the link for the CS:GO in the doc, and start the download for it as well
+  + If you get a 'You Need Permission' error page, log out of your account and refresh the page
+1. After the downloads are finished, open 7-Zip and browse to your Chrome folder `(C:\Users\[your student num]\Downloads\Chrome\)`
+1. Extract CS:GO and SmartSteamEmu to separate folders
+  + Do not extract 'extra' yet!
+  + Note: There is a big button at the top of the 7-Zip window that says "extract"
+  + Note: 7-Zip should automatically make a subfolder to extract your stuff. There's no need to make new ones, just make sure you don't happen to click 'Extract here'
+  + Reminder: the password will always be this(unless stated otherwise):
+
+    ![]({{ "/images/screenshots/pw.png" | absolute_url }})
+    {: .notice--info}
+    
+1. Open the folder where you extracted the game. Keep going into the subfolders until you find the game's EXE file
+1. Don't touch the exe file. Instead, copy the folder path that's shown at the top of the 7-Zip window
+1. Navigate back to where 'extra' is downloaded, and click Extract. For the 'Extract to' path, paste the folder path you had copied earlier
+  + Make sure this subdirectory checkbox is UNCHECKED:
+  
+    ![]({{ "/images/screenshots/checkbox.png" | absolute_url }})
+    {: .notice--info}
+
+1. Click OK to start extraction. It SHOULD ask you to overwrite files. Click 'Yes to All' when it does
+  + If it does not ask you to overwrite files, you did something wrong within the last few steps
+1. Open the folder where you extracted SmartSteamEmu, and run `SSELauncher.exe`
+  + If there happens to already be a label that says 'csgo' in SmartSteamEmu, just click on it once and hit the [delete] key
+1. Go back into 7-Zip and open the folder where you extracted the game. Keep going into the subfolders until you find the game's EXE file
+1. Drag the game's EXE into the SmartSteamEmu Launcher window
+
+1. There will be a text field to input the game's app ID. This number is provided in the 'cs' doc, contained in the [brackets] next to the game's name. For CS:GO, it is 730.
+
+    ![]({{ "/images/screenshots/csgo.png" | absolute_url }})
+    {: .notice--info}
+
+
+1. Click 'save'
+1. From now on, you will be able to launch the game from this shortcut you made in SmartSteamEmu.
+1. Wait a minute or two, the computers are slow. If the game does not launch, download 'csgo_dx' from the doc, and extract it to the same place where you extracted 'extra'. Again, overwrite when asked, then try to launch the game again.
+
+#### Information and Notes
+
+{% capture notice-10 %}
+Remember to turn your game settings down!
+
+If you are playing a game that supports Steam multiplayer(Terraria, CS:GO, Rivals Of Aether, etc.), you can start a multiplayer game just as you normally would on Steam. Anyone who wants to join can do so by pressing [Shift+Tab] to open the overlay, then opening the friends list. If someone else is hosting, you can Right-click on their name and join.
+
+If you get the direct patch of SSELauncher.exe, you can make a shortcut for it, in the same way we did earlier in the guide with 7-Zip.
+
+If your game gives a VAC error, go into SmartSteamEmu `File -> Settings -> Advanced Settings` and disable "Secured Servers".
+{% endcapture %}
+
+<div class="notice--info">{{ notice-10 | markdownify }}</div>
+
+___
+
+### Back to [Installing Things](installing-things)
+{: .notice--primary}
