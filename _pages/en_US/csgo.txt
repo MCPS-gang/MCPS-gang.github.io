@@ -62,7 +62,7 @@ If you are playing a game that supports Steam multiplayer(Terraria, CS:GO, Rival
 
 If you get the direct patch of SSELauncher.exe, you can make a shortcut for it, in the same way we did earlier in the guide with 7-Zip.
 
-If your game gives a VAC error, go into SmartSteamEmu `File -> Settings -> Advanced Settings` and disable "Secured Servers", then relaunch the game.
+If your game gives a VAC error, go into SmartSteamEmu `File -> Settings -> Advanced Settings` and disable "Secured Servers", then relaunch the game. Ask your friends to do the same, if they're the ones hosting.
 
 Note: the 'extra' folder adds surf maps and bhop maps. You can load them with the `map` command in the console(after enabling it in the settings), and then load the appropriate configs for each map by doing `exec surf` or `exec bhop` after the map loads.
 {% endcapture %}
