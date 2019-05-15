@@ -1,0 +1,25 @@
+---
+title: "Getting your IP"
+---
+
+{% include toc title="Table of Contents" %}
+
+### Instructions
+
+1. In Explorer, open your documents(or downloads) folder
+1. Right-click in the blank space, then click `New -> Text Document` and name it whatever you like
+1. Open it in Notepad and type `ipconfig` on the first line, then press [Enter] and type `PAUSE` on the second line.
+1. Save the file, close notepad.
+1. Click on the file and press [F2]
+1. Change the `.txt` at the end of the filename to `.bat` and press [Enter]
+1. Ignore the warning and click yes
+1. Double-click on the new .bat file you have, and it should show your IP next to 'IPV4 Address'
+
+    ![]({{ "/images/screenshots/ipcfg.png" | absolute_url }})
+    {: .notice--info}
+
+
+___
+
+### Back to [Installing Things](installing-things)
+{: .notice--primary}
