@@ -16,4 +16,4 @@ The basics are done. From here, you can choose what you want to do.
 * [Change your default 'STUDENT' wallpaper without installing anything](https://github.com/Steveice10/FBI/releases/latest)
 * [Install and set-up Wallpaper Engine](https://github.com/Steveice10/FBI/releases/latest)
 * [Install Dolphin Emulator(netplay build)](https://github.com/Steveice10/FBI/releases/latest)
-* [Find your computer's IP for LAN games](https://github.com/d0k3/GodMode9/releases/latest)
+* [Find your computer's IP for LAN games](ipcfg)
