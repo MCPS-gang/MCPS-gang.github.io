@@ -4,23 +4,23 @@ main:
     title: Home
     url: /
   -
-    title: FAQ
-    url: faq
+    title:  
+    url:  
   -
-    title: Donations
-    url: donations
+    title:  
+    url:  
   -
-    title: Credits
-    url: credits
+    title:  
+    url:  
   -
-    title: Updating B9S
-    url: updating-b9s
+    title:   
+    url:  
   -
-    title: A9LH to B9S
-    url: a9lh-to-b9s
+    title:  
+    url:  
   -
-    title: Troubleshooting
-    url: troubleshooting
+    title: Installing Things
+    url: installing-things
   -
     title: Region Changing
     url: region-changing
