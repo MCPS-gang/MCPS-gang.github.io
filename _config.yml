@@ -9,14 +9,14 @@ minimal_mistakes_skin    : "nord"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "3DS Hacks Guide"
+title                    : "MCPS Guide"
 title_separator          : "-"
-name                     : "Plailect"
-description              : "Full sighax CFW Guide"
+name                     : "i'd like to put my name on this but i'm not so sure that's a good idea"
+description              : "MCPS Guide"
 url                      : "https://MCPS-gang.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 enforce_ssl              : "MCPS-gang.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "Plailect/Guide_3DS" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : # true, false (default)
 words_per_minute         : 200
