@@ -21,7 +21,7 @@ title: "Setting up Wallpaper Engine"
     {: .notice--info}
     
 
-1. Open Explorer and brow
+1. In 7-Zip, open the extracted Wallpaper Engine folder
 1. Go back into 7-Zip and open the folder where you extracted the game. Keep going into the subfolders until you find the game's EXE file
 1. Drag the game's EXE into the SmartSteamEmu Launcher window
 
