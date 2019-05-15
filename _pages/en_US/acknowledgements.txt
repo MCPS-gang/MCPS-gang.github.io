@@ -20,6 +20,12 @@ Not that all these people helped me or anything, they're just pretty cool.
     + Bobby
     + Aidan
     + Manuel
+    + PJ
+    + Maddie
+    + Sebastian
+    + Mackenzie
+    + Mia
+    + Alexis
 
 {% endcapture %}
 
