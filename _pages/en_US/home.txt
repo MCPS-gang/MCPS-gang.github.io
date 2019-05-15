@@ -6,8 +6,8 @@ header:
   overlay_image: /images/blurred.png
   overlay_filter: 0.5
   caption:
-excerpt: "A complete guide to: <br /> not doing what you're supposed to do in class.<br />"
----
+excerpt: "A complete guide to: <br /> Not doing what you're supposed to do in class.<br />"
+
 
 Thoroughly read all of the pages (including this one!) and follow the instructions carefully before proceeding to the next.
 {: .notice--warning}
