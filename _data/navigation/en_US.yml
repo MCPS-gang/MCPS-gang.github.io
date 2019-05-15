@@ -88,8 +88,8 @@ sidebar_pages:
     title: Flashing ntrboot (Powersaves)
     url: flashing-ntrboot-(powersaves)
   -
-    title: Homebrew Launcher (Soundhax)
-    url: homebrew-launcher-(soundhax)
+    title: Download Directory Modification
+    url: ddm
   -
     title: Homebrew Launcher (Alternatives)
     url: homebrew-launcher-(alternatives)
@@ -127,5 +127,5 @@ sidebar_pages:
     title: Installing boot9strap (Fredtool)
     url: installing-boot9strap-(fredtool)
   -
-    title: Finalizing Setup
-    url: finalizing-setup
+    title: Installing Things
+    url: installing-things
