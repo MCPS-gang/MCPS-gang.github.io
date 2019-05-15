@@ -49,7 +49,7 @@ If you are playing a game that supports Steam multiplayer(Terraria, CS:GO, Rival
 
 If you get the direct patch of SSELauncher.exe, you can make a shortcut for it, in the same way we did earlier in the guide with 7-Zip.
 
-If your game gives a VAC error, go into SmartSteamEmu `File -> Settings -> Advanced Settings` and disable "Secured Servers".
+If your game gives a VAC error, go into SmartSteamEmu `File -> Settings -> Advanced Settings` and disable "Secured Servers". Ask your friends to do the same, if they're the ones hosting.
 {% endcapture %}
 
 <div class="notice--info">{{ notice-10 | markdownify }}</div>
