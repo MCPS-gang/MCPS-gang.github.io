@@ -1,0 +1,46 @@
+---
+title: "Installing a Steam Game"
+---
+
+{% include toc title="Table of Contents" %}
+
+### For the purposes of this tutorial, we will be installing *Enter The Gungeon* as an example. It is a very quick download at 320 MB.
+{: .notice--primary}
+
+### What You Need
+
+* An open copy of [the legendary doc](https://docs.google.com/document/d/12zAJtsN7Z2IK86vVVhb0NsZxJGxeAG4NM8FRt9-59eg/edit?usp=sharing)
+* Enough time for your game to download
+
+### Instructions
+
+1. Open the 'cs' doc and download SSE from the provided link
+1. Find the link for the game you want(Enter The Gungeon) in the doc, and start the download for it as well
+  + If you get a 'You Need Permission' error page, log out of your account and refresh the page
+1. After the downloads are finished, open 7-Zip and browse to your Chrome folder `(C:\Users\[your student num]\Downloads\Chrome\)`
+1. Extract both downloads to separate folders
+  + Note: There is a big button at the top of the 7-Zip window that says "extract"
+  + Note: 7-Zip should automatically make a subfolder to extract your stuff. There's no need to make new ones, just make sure you don't happen to click 'Extract here'
+  + Reminder: the password will always be this(unless stated otherwise):
+
+    ![]({{ "/images/screenshots/pw.png" | absolute_url }})
+    {: .notice--info}
+    
+
+1. Open the folder where you extracted SmartSteamEmu, and run `SSELauncher.exe`
+1. Go back into 7-Zip and open the folder where you extracted the game. Keep going into the subfolders until you find the game's EXE file
+1. Drag the game's EXE into the SmartSteamEmu Launcher window
+
+1. There will be a text field to input the game's app ID. This number is provided in the 'cs' doc, contained in the [brackets] next to the game's name. For Enter The Gungeon, it is 311690.
+
+    ![]({{ "/images/screenshots/SSEsettings.png" | absolute_url }})
+    {: .notice--info}
+
+
+1. Click 'save'
+1. From now on, you will be able to launch the game from this shortcut you made in SmartSteamEmu.
+
+___
+
+### Back to [Installing Things](installing-things)
+{: .notice--primary}
