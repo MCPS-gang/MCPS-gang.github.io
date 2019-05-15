@@ -40,6 +40,18 @@ title: "Installing a Steam Game"
 1. Click 'save'
 1. From now on, you will be able to launch the game from this shortcut you made in SmartSteamEmu.
 
+#### Information and Notes
+
+{% capture notice-10 %}
+If you are playing a game that supports Steam multiplayer(Terraria, CS:GO, Rivals Of Aether, etc.), you can start a multiplayer game just as you normally would on Steam. Anyone who wants to join can do so by pressing [Shift+Tab] to open the overlay, then opening the friends list. If someone else is hosting, you can Right-click on their name and join.
+
+If you get the direct patch of SSELauncher.exe, you can make a shortcut for it, in the same way we did earlier in the guide with 7-Zip.
+
+If your game gives a VAC error, go into SmartSteamEmu settings and disable "Secured Servers".
+{% endcapture %}
+
+<div class="notice--info">{{ notice-10 | markdownify }}</div>
+
 ___
 
 ### Back to [Installing Things](installing-things)
