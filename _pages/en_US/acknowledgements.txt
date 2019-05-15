@@ -2,7 +2,7 @@
 title: "Acknowledgements"
 ---
 
-**Shoutouts to all the homies over at MSD.**
+**Shoutouts to all the real homies over at MSD.**
 {: .notice--primary}
 
 **Shoutout to Ms. Yi mf Song for providing a good class to both learn programming *and* play games in. That's a hard one to pull off**
