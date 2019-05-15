@@ -14,7 +14,7 @@ title: "Installing a Steam Game"
 
 ### Instructions
 
-1. Open the 'cs' doc and download SSE from the provided link
+1. Open the 'cs' doc and download SSE from the provided link(only if you don't already have it)
 1. Find the link for the game you want(Enter The Gungeon) in the doc, and start the download for it as well
   + If you get a 'You Need Permission' error page, log out of your account and refresh the page
 1. After the downloads are finished, open 7-Zip and browse to your Chrome folder `(C:\Users\[your student num]\Downloads\Chrome\)`
