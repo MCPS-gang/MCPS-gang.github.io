@@ -10,7 +10,7 @@ The basics are done. From here, you can choose what you want to do.
 
 ### Options
 
-* [Install CS:GO(coming soon)](404)
+* [Install CS:GO](csgo)
 * [Install and play COD:BO2(coming soon)](404)
 * [Install a Steam game using SmartSteamEmu](SSE)
 * [Change your default 'STUDENT' wallpaper without installing anything(coming soon)](404)
