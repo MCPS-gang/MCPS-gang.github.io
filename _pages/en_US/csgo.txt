@@ -51,7 +51,7 @@ title: "Installing CS:GO"
 
 1. Click 'save'
 1. From now on, you will be able to launch the game from this shortcut you made in SmartSteamEmu.
-1. Wait a minute or two, the computers are slow. If the game does not launch, download 'csgo_dx' from the doc, and extract it to the same place where you extracted 'extra'. Again, overwrite when asked, then try to launch the game again.
+1. Launch the game, and wait a minute or two, the computers are slow. If the game does not launch, download 'csgo_dx' from the doc, and extract it to the same place where you extracted 'extra'. Again, overwrite when asked, then try to launch the game again.
 
 #### Information and Notes
 
