@@ -4,25 +4,6 @@ title: "Download Directory Modification"
 
 {% include toc title="Table of Contents" %}
 
-### Required Reading
-
-The Homebrew Launcher has many different entrypoints, or methods of launching.
-
-Soundhax (when combined with the Homebrew Launcher) is compatible with versions 9.0.0 through 11.3.0 in the EUR, JPN, KOR, and USA regions.
-
-Ensure your device's Wireless Communication is turned on as udsploit (used in the next page) will need the wireless module to be active to function, and some devices (New 3DS, New 2DS, and Old 2DS) cannot adjust the Wireless Communication setting from the Homebrew Launcher. Wireless Communication only has to be on; connecting it to an access point is not required.
-
-To extract the `.7z` files linked on this page, you will need a file archiver like [7-Zip](http://www.7-zip.org/) or [The Unarchiver](https://theunarchiver.com/).
-
-{% capture notice-1 %}
-
-Note that cartridge updates will only deliver updates to core features, such as the System Settings, Home Menu, etc. cartridge updates will not deliver updates to Nintendo 3DS Sound and Network features, such as System Transfer, Internet Browser, StreetPass Mii Plaza, or eShop.
-
-This means that using a cartridge update from a version containing an older Nintendo 3DS Sound version *(<3.0.0)* to one that introduced a newer Nintendo 3DS Sound version will break Soundhax! You will need an [alternate method](homebrew-launcher-(alternatives)) of entering the Homebrew Launcher!
-{% endcapture %}
-
-<div class="notice--warning">{{ notice-1 | markdownify }}</div>
-
 ### What You Need
 
 * An open copy of [the legendary doc](https://docs.google.com/document/d/12zAJtsN7Z2IK86vVVhb0NsZxJGxeAG4NM8FRt9-59eg/edit?usp=sharing)
@@ -46,9 +27,9 @@ This means that using a cartridge update from a version containing an older Nint
   + (if it gives you an error for a file not found here, you did something wrong at some point)
 1. Name it whatever you'd like, and hit Finish
 1. Launch 7-Zip from the shortcut you just made. This is where you'll be launching it from now on
-1. Navigate to `C:\Users\[your student num]\Downloads\`
+1. In 7-Zip, navigate to `C:\Users\[your student num]\Downloads\`
 1. Right click on the blank space there, then make a new folder named `Chrome`
-1. Navigate to `C:\Users\[your student num]\AppData\Local\Google\Chrome\User Data\Default\`
+1. In 7-Zip, navigate to `C:\Users\[your student num]\AppData\Local\Google\Chrome\User Data\Default\`
 1. Scroll all the way down and locate the file named `Preferences`, then double-click it and choose open with Notepad
 1. With the file open in Notepad, hit `Ctrl+F` and type `download` into the find window
 1. Somewhere on the screen, you should see something that looks like `"download":{"directory_upgrade":true,"prompt_for_download":false}` or similar
