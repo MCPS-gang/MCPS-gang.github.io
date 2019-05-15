@@ -9,16 +9,7 @@ title: "Get Started"
 Before starting, you must know that this guide will install programs to the school computer's *local* drive. This means that if you ever switch computers for any reason(if you pick a different one each time) or your computer happens to get wiped(this does happen, though not too often), you must reinstall anything you had if you hope to use it again.
 
 {% capture notice-1 %}
-There have been reports of a wave of bans being handed out to CFW users by Nintendo. To protect yourself, please do the following steps before starting this guide:
-
-1. Go to System Settings, then "Internet Settings", then "SpotPass", then "Sending of System Information"
-1. Disable the "Sending of System Information" option
-1. Exit the System Settings
-1. Go to your Friend List (the [orange Face Icon]({{ "/images/friend-list-icon.png" | absolute_url }}) in the top row of your Home Menu)
-  + If you receive an error and are kicked out of the menu, the Friend List setting is either already disabled or your console cannot connect to Nintendo's servers (due to a ban or connection issues)
-1. Go to the Friend List settings, then "Friend Notification Settings", then "Show friends what you're playing"
-1. Disable the "Show friends what you're playing" option
-1. Exit your Friend List
+If you will be playing games, obviously be cautious when the teacher is near. Alt+Tab is your best friend, as well as Ctrl+Win+[Arrow key left or right] if you have made other desktops to keep your gaming in(this is the optimal setup).
 
 {% endcapture %}
 
