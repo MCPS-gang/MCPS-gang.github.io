@@ -13,7 +13,7 @@ title: "Download Directory Modification"
 ### Instructions
 
 1. Open the 'cs' doc and download *7zp* from the provided link
-1. Run the intaller that you just downloaded, choose English(optional), and press Next
+1. Run the installer that you just downloaded, choose English(optional), and press Next
 1. On the window asking for the install location, change it to `C:\Users\[your student number]\7zp\` 
   + (do not click 'browse')
 
