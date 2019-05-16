@@ -17,3 +17,4 @@ The basics are done. From here, you can choose what you want to do.
 * [Install and set-up Wallpaper Engine](wpe)
 * [Install Dolphin Emulator(netplay build(coming soon))](404)
 * [Find your computer's IP for LAN games](ipcfg)
+* [Run an Admin-only Program as a Non-admin User](nonadmin)
