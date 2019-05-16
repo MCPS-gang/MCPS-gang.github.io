@@ -9,7 +9,8 @@ title: "Setting up Wallpaper Engine"
 
 ### What You Need
 
-* An open copy of [the legendary doc](https://docs.google.com/document/d/12zAJtsN7Z2IK86vVVhb0NsZxJGxeAG4NM8FRt9-59eg/edit?usp=sharing)
+* An open copy of the legendary 'cs' doc(since you're here, someone should've shared it with you)
+* Time to browse for wallpapers that you like
 
 ### Instructions
 
@@ -91,6 +92,7 @@ title: "Setting up Wallpaper Engine"
     
 1. If the wallpaper configurator is open, close it. Afterwards, open it up again, and your new wallpaper should be selectable!
   + good job!
+  + It is good to delete the zip files after you've extracted them to the right place and verified that they work, so that you don't eventually get confused when you download even more wallpapers.
 ___
 
 ### Back to [Installing Things](installing-things)
