@@ -13,7 +13,7 @@ The basics are done. From here, you can choose what you want to do.
 * [Install CS:GO](csgo)
 * [Install and play COD:BO2(coming soon)](404)
 * [Install a Steam game using SmartSteamEmu](SSE)
-* [Change your default 'STUDENT' wallpaper without installing anything(coming soon)](404)
+* [Change your default 'STUDENT' wallpaper without installing anything](wallpaper)
 * [Install and set-up Wallpaper Engine](wpe)
 * [Install Dolphin Emulator(netplay build(coming soon))](404)
 * [Find your computer's IP for LAN games](ipcfg)
