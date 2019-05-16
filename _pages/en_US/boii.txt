@@ -1,0 +1,56 @@
+---
+title: "Setting up BO2"
+---
+
+{% include toc title="Table of Contents" %}
+
+### What You Need
+
+* An open copy of the legendary 'cs' doc(since you're here, someone should've shared it with you)
+* Enough time for BO2 to download(it is ~21 GB and may take most of the class period)
+
+### Instructions
+
+1. Open the 'cs' doc and download BO2 from the provided link
+1. Download the 'Required patch' that is seen next to BO2
+1. Extract the download to its own folder
+  + Note: There is a big button at the top of the 7-Zip window that says "extract"
+  + Note: 7-Zip should automatically make a subfolder to extract your stuff. There's no need to make a new one, just make sure you don't happen to click 'Extract here'
+  + Reminder: the password will always be this(unless stated otherwise):
+
+    ![]({{ "/images/screenshots/pw.png" | absolute_url }})
+    {: .notice--info}
+    
+
+
+
+1. There will be a text field to input the game's app ID. This number is provided in the 'cs' doc, contained in the [brackets] next to the game's name. For CS:GO, it is 730.
+
+    ![]({{ "/images/screenshots/csgo.png" | absolute_url }})
+    {: .notice--info}
+
+
+1. Click 'save'
+1. From now on, you will be able to launch the game from this shortcut you made in SmartSteamEmu.
+1. Launch the game, and wait a minute or two, the computers are slow. If the game does not launch, download 'csgo_dx' from the doc, and extract it to the same place where you extracted 'extra'. Again, overwrite when asked, then try to launch the game again.
+
+#### Information and Notes
+
+{% capture notice-10 %}
+Remember to turn your game settings down!
+
+If you are playing a game that supports Steam multiplayer(Terraria, CS:GO, Rivals Of Aether, etc.), you can start a multiplayer game just as you normally would on Steam. Anyone who wants to join can do so by pressing [Shift+Tab] to open the overlay, then opening the friends list. If someone else is hosting, you can Right-click on their name and join.
+
+If you get the direct patch of SSELauncher.exe, you can make a shortcut for it, in the same way we did earlier in the guide with 7-Zip.
+
+If your game gives a VAC error, go into SmartSteamEmu `File -> Settings -> Advanced Settings` and disable "Secured Servers", then relaunch the game. Ask your friends to do the same, if they're the ones hosting.
+
+Note: the 'extra' folder adds surf maps and bhop maps. You can load them with the `map` command in the console(after enabling it in the settings), and then load the appropriate configs for each map by doing `exec surf` or `exec bhop` after the map loads.
+{% endcapture %}
+
+<div class="notice--info">{{ notice-10 | markdownify }}</div>
+
+___
+
+### Back to [Installing Things](installing-things)
+{: .notice--primary}
