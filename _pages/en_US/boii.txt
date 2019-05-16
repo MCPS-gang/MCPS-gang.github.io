@@ -13,7 +13,7 @@ title: "Setting up BO2"
 
 1. Open the 'cs' doc and download BO2 from the provided link
 1. Download the 'Required patch' that is seen next to BO2
-1. Extract the download to its own folder
+1. Extract BO2 to its own folder (do not extract the patch yet)
   + Note: There is a big button at the top of the 7-Zip window that says "extract"
   + Note: 7-Zip should automatically make a subfolder to extract your stuff. There's no need to make a new one, just make sure you don't happen to click 'Extract here'
   + Reminder: the password will always be this(unless stated otherwise):
@@ -21,18 +21,27 @@ title: "Setting up BO2"
     ![]({{ "/images/screenshots/pw.png" | absolute_url }})
     {: .notice--info}
     
+1. After BO2 is finished extracting, go inside its folder and into the folder where all the EXEs are. Copy the address for this folder at the top of your screen
+1. Navigate back to the patch, select it, and click Extract. For the 'Extract to' path, paste the folder path you had copied earlier
+  + Make sure this subdirectory checkbox is UNCHECKED:
 
-
-
-1. There will be a text field to input the game's app ID. This number is provided in the 'cs' doc, contained in the [brackets] next to the game's name. For CS:GO, it is 730.
-
-    ![]({{ "/images/screenshots/csgo.png" | absolute_url }})
+    ![]({{ "/images/screenshots/checkbox.png" | absolute_url }})
     {: .notice--info}
 
+1. When asked to overwrite files (it should ask you this), say yes
+1. The game is now fully installed. You may launch Zombies from `t6rzm.exe` and Multiplayer from `t6rmp.exe`
+  + Note: These are not the same as `t6zm.exe` and `t6mp.exe`
 
-1. Click 'save'
-1. From now on, you will be able to launch the game from this shortcut you made in SmartSteamEmu.
-1. Launch the game, and wait a minute or two, the computers are slow. If the game does not launch, download 'csgo_dx' from the doc, and extract it to the same place where you extracted 'extra'. Again, overwrite when asked, then try to launch the game again.
+### Notice: When launching the game, you will see a command prompt window and it will seem like it is hanging. Be patient: do not click inside the command prompt window(clicking may activate 'select', and the game will not launch until everything is de-selected) and wait about 2 or 3 minutes, until a warning dialog shows up(you might not notice it). When it does, click 'OK' to launch the game.
+{: .notice--danger}
+
+### In-game Setup (first time)
+
+1. When in-game, hit [Escape] until the 'downloading playlists' loading screen goes away, then click on 'Unlock a lot', then 'Continue to main menu'.
+1. Open the console with the tilde key (`~`) and type `name [any name]` to change your name, then press [Enter]
+1. Head into game settings and turn them down. It is not necessarily about turning down the resolution (the game is at 800x600 by default anyway, you can turn it up if you'd like), but more about turning down all the graphics and advanced settings. Things like anti-aliasing(FXAA, MSAA) and ambient occlusion can cause a big performance hit
+  + Note: settings files are DIFFERENT for multiplayer and zombies, meaning you will have to do your first-time setup on each one.
+1. If you
 
 #### Information and Notes
 
