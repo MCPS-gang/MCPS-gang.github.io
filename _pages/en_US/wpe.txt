@@ -64,9 +64,9 @@ title: "Setting up Wallpaper Engine"
 1. Click Ok and Finish 
   + If you get some sort of 'File not found' error here, you did something within the past few steps.
 1. Go back into 7-Zip and navigate to your documents folder. You can usually easily do this by typing `H:\` in the top bar and pressing [Enter]
-1. Click on the shortcut you made here to select it, then press the 'Move' button at the top of the screen. When asked where to move to, type `C:\Users\[your student number]\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\`
+1. Click on the shortcut you made here to select it(it will be a file ending in `.lnk`), then press the 'Move' button at the top of the screen. When asked where to move to, type `C:\Users\[your student number]\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\`
 1. Wallpaper Engine should now automatically start when you log in on this computer! It takes a moment for it to start up, though.
-  + If you haven't set a wallpaper in the configurator, you may not notice when Wallpaper Engine starts at all. The tray icon will show up, though.
+  + If you haven't set a wallpaper in the configurator, you may not notice when Wallpaper Engine starts at all. However, the tray icon will still show up.
   
 ### Downloading additional wallpapers from the internet
 
