@@ -17,7 +17,7 @@ title: "Running an Admin-only Program as a Non-admin User"
 1. Right-click on the blank space and click 'Create file'. Name it something like 'nonadmin.txt' and open it in Notepad.
 1. Inside the file, paste `cmd /min /C "set __COMPAT_LAYER=RUNASINVOKER && start "" FILE.exe"` (but change FILE to the actual name of the exe you want to run) and save it, then close Notepad.
 1. Back in 7-Zip, rename the file so that the `.txt` at the end is changed to `.bat`
-1. Run your newly-created bat file to run the program
+1. Double-click on your newly-created bat file to run the program
 
 ___
 
