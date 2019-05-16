@@ -41,7 +41,10 @@ title: "Setting up BO2"
 1. Open the console with the tilde key (`~`) and type `name [any name]` to change your name, then press [Enter]
 1. Head into game settings and turn them down. It is not necessarily about turning down the resolution (the game is at 800x600 by default anyway, you can turn it up if you'd like), but more about turning down all the graphics and advanced settings. Things like anti-aliasing(FXAA, MSAA) and ambient occlusion can cause a big performance hit
   + Note: settings files are DIFFERENT for multiplayer and zombies, meaning you will have to do your first-time setup on each one.
-1. If you
+1. If you are hosting multiplayer and are having trouble starting a game, you can force it to start by opening the console and typing `xpartygo` and pressing [Enter]
+1. If you are trying to connect to someone else's game that they are hosting(whether it's multiplayer or zombies), make sure they [get their IP](ipcfg). Then, **without going into the custom games menu**, open the console and type `connect [insert the host's IP here]` and press [Enter]
+  + If you go into the custom games menu before doing this, your game will crash(black screen) when joining.
+  + Even though the host is on custom games, people joining will only be able to use their 'Public Match' custom classes, so make those.
 
 #### Information and Notes
 
