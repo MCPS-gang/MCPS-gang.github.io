@@ -1,0 +1,25 @@
+---
+title: "Running an Admin-only Program as a Non-admin User"
+---
+
+{% include toc title="Table of Contents" %}
+
+### Note: Just because you can run the program, doesn't mean you actually have admin access or any extended permissions. Some programs may actually require proper admin access and might not work as intended. This may work well for installers, as long as you choose an install directory that you're allowed to write to.
+{: .notice--primary}
+
+### What You Need
+
+* ???
+
+### Instructions
+
+1. In 7-Zip, navigate to the folder of the program you want to run(the same folder where the exe is)
+1. Right-click on the blank space and click 'Create file'. Name it something like 'nonadmin.txt' and open it in Notepad.
+1. Inside the file, paste `cmd /min /C "set __COMPAT_LAYER=RUNASINVOKER && start "" FILE.exe"` (but change FILE to the actual name of the exe you want to run) and save it, then close Notepad.
+1. Back in 7-Zip, rename the file so that the `.txt` at the end is changed to `.bat`
+1. Run your newly-created bat file to run the program
+
+___
+
+### Back to [Installing Things](installing-things)
+{: .notice--primary}
