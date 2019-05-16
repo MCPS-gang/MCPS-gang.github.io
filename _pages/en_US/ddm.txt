@@ -6,7 +6,7 @@ title: "Download Directory Modification"
 
 ### What You Need
 
-* An open copy of [the legendary doc](https://docs.google.com/document/d/12zAJtsN7Z2IK86vVVhb0NsZxJGxeAG4NM8FRt9-59eg/edit?usp=sharing)
+* An open copy of the legendary 'cs' doc(since you're here, someone should've shared it with you)
 * Around 3MB or more of space left in your school network drive.
 * About 5 minutes of your time.
 
