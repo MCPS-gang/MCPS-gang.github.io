@@ -70,7 +70,7 @@ title: "Setting up Wallpaper Engine"
   
 ### Downloading additional wallpapers from the internet
 
-1. Copy [this link](https://steamcommunity.com/workshop/browse/?appid=431960&browsesort=trend&section=readytouseitems&actualsort=trend&p=1&days=-1) and paste it in one of the very cool and neat educational 'Titanium Phoenix' websites available on the 'cs' doc. If you don't know where to paste it, there is a button titled 'Surf Freely'. Click on that, and then choose the local (important! do not choose v2 as it is broken when trying to access steam workshop)
+1. Copy [this link](https://steamcommunity.com/workshop/browse/?appid=431960&browsesort=trend&section=readytouseitems&actualsort=trend&p=1&days=-1) and paste it in one of the very cool and neat educational 'Titanium Phoenix' websites available on the 'cs' doc. If you don't know where to paste it, there is a button titled 'Surf Freely'. Click on that, and then choose the local prox(important! do not choose v2 as it is broken when trying to access steam workshop)
 1. After pasting the link and pressing [Enter], you'll be at the workshop page. You can use search and sort however you like.
   + When sorting at the top(by most popular, weekly, all time, etc.) make sure to copy the link and paste it on the Titanium Phoenix URL bar(NOT your browser's address bar) instead of just clicking it. If you click it normally, you will get a very rude 'Web Page Blocked' message from MCPS.
   + NOTICE: Yes, some of the wallpapers may be inappropriate depending on how you sort it(especially if you choose something like 'Most Popular:One Week' or 'Most Recent'). By default, they shouldn't be, though.
@@ -81,6 +81,7 @@ title: "Setting up Wallpaper Engine"
     {: .notice--info}
 
 1. Go to http://steamworkshop.download/ (if this is blocked, you can also use another one of the neat educational sites to get on it)
+  + If you do this, and your download ends up being a file other than a zip, just add `.zip` to the end and try extracting it anyways
 1. Paste the workshop URL you copied, then click 'Download', then 'Download from online Steam client', then click on the zip link with all the numbers to start the download.
 1. Open 7-Zip, and navigate to your Wallpaper Engine folder. When inside, go to `projects\defaultprojects` and copy the address for it at the top.
 1. Navigate back to the where zip file with the numbers that you downloaded is. Click on it to select it, then hit the 'Extract' button at the top of the window.
@@ -91,8 +92,9 @@ title: "Setting up Wallpaper Engine"
     {: .notice--info}
     
 1. If the wallpaper configurator is open, close it. Afterwards, open it up again, and your new wallpaper should be selectable!
-  + good job!
+  + Good job!
   + It is good to delete the zip files after you've extracted them to the right place and verified that they work, so that you don't eventually get confused when you download even more wallpapers.
+  
 ___
 
 ### Back to [Installing Things](installing-things)
