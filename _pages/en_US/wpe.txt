@@ -4,6 +4,9 @@ title: "Setting up Wallpaper Engine"
 
 {% include toc title="Table of Contents" %}
 
+### Notice: Depending on the wallpaper you use, Wallpaper Engine may result in a performance hit on the Dell Optiplex 3010 (the slower school PCs that have the blue light on the power button). If the performance hit is too noticeable for your computer to be properly usable, you should either change your settings/wallpaper, or delete Wallpaper Engine and instead follow the [Changing the Default 'STUDENT' Wallpaper(coming soon)](404) guide to use a static wallpaper.
+{: .notice--danger}
+
 ### What You Need
 
 * An open copy of [the legendary doc](https://docs.google.com/document/d/12zAJtsN7Z2IK86vVVhb0NsZxJGxeAG4NM8FRt9-59eg/edit?usp=sharing)
@@ -22,32 +25,72 @@ title: "Setting up Wallpaper Engine"
     
 
 1. In 7-Zip, open the extracted Wallpaper Engine folder
-1. Go back into 7-Zip and open the folder where you extracted the game. Keep going into the subfolders until you find the game's EXE file
-1. Drag the game's EXE into the SmartSteamEmu Launcher window
+1. Run `launcher.exe` and set your quality to 'Low' when asked, then click Next. This will be changed later, don't worry
+  + Note: The 'Auto Start' option does absolutely nothing. We will cover how to set up proper auto-start.
+  + Note: The 'Adjust Windows color' option does work, if you want to enable that.
+1. Click Next, read the thing about the system tray icon, then press 'All done'
+1. If it does not open automatically, open the wallpaper configurator by double-clicking on its tray icon. If you cannot see the tray icon, it may be hidden in the extra icons area, like so:
 
-1. There will be a text field to input the game's app ID. This number is provided in the 'cs' doc, contained in the [brackets] next to the game's name. For Enter The Gungeon, it is 311690.
 
-    ![]({{ "/images/screenshots/SSEsettings.png" | absolute_url }})
+    ![]({{ "/images/screenshots/trayicon.png" | absolute_url }})
     {: .notice--info}
 
 
-1. Click 'save'
-1. From now on, you will be able to launch the game from this shortcut you made in SmartSteamEmu.
+1. Click the gear icon near the top of the window to open the settings, and adjust them according to your preference
+  + My recommended settings: 
 
-#### Information and Notes
+    ![]({{ "/images/screenshots/werecommended.png" | absolute_url }})
+    {: .notice--info}
 
-{% capture notice-10 %}
-Remember to turn your game settings down!
+### Notice: Some wallpapers function better if you set 'Other application focused' to 'Pause' and such. Feel free to experiment with the settings as much as you want
+{: .notice--info}
 
-If you are playing a game that supports Steam multiplayer(Terraria, CS:GO, Rivals Of Aether, etc.), you can start a multiplayer game just as you normally would on Steam. Anyone who wants to join can do so by pressing [Shift+Tab] to open the overlay, then opening the friends list. If someone else is hosting, you can Right-click on their name and join.
 
-If you get the direct patch of SSELauncher.exe, you can make a shortcut for it, in the same way we did earlier in the guide with 7-Zip.
+1. Click 'ok'. Feel free to explore the built-in wallpapers. Later on, you'll be able to download other custom wallpapers from the internet, in case you don't want to use any of the default ones
+1. From now on, you can launch the wallpaper configurator from the tray icon at any time.
 
-If your game gives a VAC error, go into SmartSteamEmu `File -> Settings -> Advanced Settings` and disable "Secured Servers". Ask your friends to do the same, if they're the ones hosting.
-{% endcapture %}
+### Auto-start
 
-<div class="notice--info">{{ notice-10 | markdownify }}</div>
+1. Open 7-Zip and navigate to your Wallpaper Engine folder(the same one that has `launcher.exe`)
+1. Copy the folder address at the top of the window
+1. Open Explorer and go to your documents folder. Right-click in the blank space and click on `New -> Shortcut`
+1. Paste the address you copied from earlier, but add `wallpaper64.exe` to the end.
+  + The final result should look something like this:
 
+    ![]({{ "/images/screenshots/weshortcut.png" | absolute_url }})
+    {: .notice--info}
+
+1. Click Ok and Finish 
+  + If you get some sort of 'File not found' error here, you did something within the past few steps.
+1. Go back into 7-Zip and navigate to your documents folder. You can usually easily do this by typing `H:\` in the top bar and pressing [Enter]
+1. Click on the shortcut you made here to select it, then press the 'Move' button at the top of the screen. When asked where to move to, type `C:\Users\[your student number]\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\`
+1. Wallpaper Engine should now automatically start when you log in on this computer! It takes a moment for it to start up, though.
+  + If you haven't set a wallpaper in the configurator, you may not notice when Wallpaper Engine starts at all. The tray icon will show up, though.
+  
+### Downloading additional wallpapers from the internet
+
+1. Copy [this link](https://steamcommunity.com/workshop/browse/?appid=431960&browsesort=trend&section=readytouseitems&actualsort=trend&p=1&days=-1) and paste it in one of the very cool and neat educational 'Titanium Phoenix' websites available on the 'cs' doc. If you don't know where to paste it, there is a button titled 'Surf Freely'. Click on that, and then choose the local (important! do not choose v2 as it is broken when trying to access steam workshop)
+1. After pasting the link and pressing [Enter], you'll be at the workshop page. You can use search and sort however you like.
+  + When sorting at the top(by most popular, weekly, all time, etc.) make sure to copy the link and paste it on the Titanium Phoenix URL bar(NOT your browser's address bar) instead of just clicking it. If you click it normally, you will get a very rude 'Web Page Blocked' message from MCPS.
+  + NOTICE: Yes, some of the wallpapers may be inappropriate depending on how you sort it(especially if you choose something like 'Most Popular:One Week' or 'Most Recent'). By default, they shouldn't be, though.
+1. Browse around and find a wallpaper that you like, then click it to go to its workshop page. Copy the URL for it like so:
+
+
+    ![]({{ "/images/screenshots/tfurlbar.png" | absolute_url }})
+    {: .notice--info}
+
+1. Go to http://steamworkshop.download/ (if this is blocked, you can also use another one of the neat educational sites to get on it)
+1. Paste the workshop URL you copied, then click 'Download', then 'Download from online Steam client', then click on the zip link with all the numbers to start the download.
+1. Open 7-Zip, and navigate to your Wallpaper Engine folder. When inside, go to `projects\defaultprojects` and copy the address for it at the top.
+1. Navigate back to the where zip file with the numbers that you downloaded is. Click on it to select it, then hit the 'Extract' button at the top of the window.
+1. When asked where to extract to, paste the 'defaultprojects' address you copied earlier, and make sure this subdirectory box is unchecked(then click OK):
+
+
+    ![]({{ "/images/screenshots/checkbox.png" | absolute_url }})
+    {: .notice--info}
+    
+1. If the wallpaper configurator is open, close it. Afterwards, open it up again, and your new wallpaper should be selectable!
+  + good job!
 ___
 
 ### Back to [Installing Things](installing-things)
