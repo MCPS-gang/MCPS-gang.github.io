@@ -33,7 +33,7 @@ title: "Download Directory Modification"
 1. Scroll all the way down and locate the file named `Preferences`, then double-click it and choose open with Notepad
 1. With the file open in Notepad, hit `Ctrl+F` and type `download` into the find window
 1. Somewhere on the screen, you should see something that looks like `"download":{"directory_upgrade":true,"prompt_for_download":false}` or similar
-1. BEFORE the `"directory_upgrade"`, add `"default_directory":"C:\\Users\\[your student number]\\Downloads\\Chrome",`
+1. BEFORE the `"directory_upgrade"`, add `"default_directory":"C:\\Users\\[your student number]\\Downloads\\Chrome\\",`
 1. The final result should look like this:
 
     ![]({{ "/images/screenshots/preferences.png" | absolute_url }})
