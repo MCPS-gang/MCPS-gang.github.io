@@ -1,0 +1,49 @@
+---
+title: "Changing the Default 'STUDENT' Wallpaper"
+---
+
+{% include toc title="Table of Contents" %}
+
+### What You Need
+
+* Time to go look for wallpapers
+
+### Instructions (if you want to get a correctly-sized wallpaper)
+
+1. Monitor-dependent search:
+  + If you have a square-shaped monitor, look for 1280x1024 wallpapers
+  + If you have one of the wide/16:9 monitors, look for 1080p wallpapers or 1920x1080 wallpapers
+1. Out of those results, find a wallpaper you like(make sure it's ACTUALLY 1280x1024 or 1920x1080) and save it
+1. Open 7-Zip and navigate to where you downloaded it
+  + If you happen to have saved it in your school network drive, you can usually get to it by typing `H:\` in the top address bar and pressing [Enter]
+1. Click on the file for the wallpaper you just downloaded to select it, and hit the 'Copy' button at the top of the window
+1. When it asks where to copy to, type `C:\Users\[your student number]\AppData\Roaming\Microsoft\Windows\Themes\TranscodedWallpaper`
+  + Make sure there is no backslash after the 'TranscodedWallpaper'!
+  + If it asks to overwrite, say yes
+1. Log out of the computer, then log back in
+1. Your wallpaper should be changed!
+
+### Instructions (if you want to crop it yourself)
+
+1. Look for a wallpaper you like online, and download it. If you want, as an example, you can use [this](/images/hoverboard.png)
+  + Obviously avoid getting phone wallpapers and low-resolution types unless you really need to
+1. Depending on where you saved it to, use either Explorer or 7-Zip to navigate to it
+1. Go to an online cropping tool (we will use [Croppola](https://croppola.com/)) and upload your image by dragging it inside.
+1. Set your cropping mode to 'Manual'
+  + If you have a square monitor, set the aspect ratio to 5:4(it is normal if it auto-changes to something else)
+  + If you have one of the wide/16:9 monitors, set the aspect ratio to 16:9(it is normal if it auto-changes to something else)
+1. Mess around with the crop settings, size, and position, until you like how it looks
+1. Click on 'Download this crop'
+1. Open 7-Zip and navigate to where you downloaded it
+  + If you happen to have saved it in your school network drive, you can usually get to it by typing `H:\` in the top address bar and pressing [Enter]
+1. Click on the file for the wallpaper you just downloaded to select it, and hit the 'Copy' button at the top of the window
+1. When it asks where to copy to, type `C:\Users\[your student number]\AppData\Roaming\Microsoft\Windows\Themes\TranscodedWallpaper`
+  + Make sure there is no backslash after the 'TranscodedWallpaper'!
+  + If it asks to overwrite, say yes
+1. Log out of the computer, then log back in
+1. Your wallpaper should be changed!
+
+___
+
+### Back to [Installing Things](installing-things)
+{: .notice--primary}
