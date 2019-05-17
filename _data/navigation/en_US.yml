@@ -70,8 +70,8 @@ main:
     title: 404
     url: 404
   -
-    title: 'cs'
-    url: redirect.html
+    title: FTDE
+    url: ftde
   -
     title: Acknowledgements
     url: acknowledgements
