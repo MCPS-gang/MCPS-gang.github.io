@@ -1,0 +1,35 @@
+---
+title: "Command Prompt"
+---
+
+{% include toc title="Table of Contents" %}
+
+### This is mostly for fun and doesn't get you any higher privileges than you already had, but can be legitimately useful for messing around and running commands.
+{: .notice--primary}
+
+### Instructions
+
+1. In Explorer, open your documents(or downloads) folder
+1. Right-click in the blank space, then click `New -> Text Document` and name it whatever you like
+1. Open it in Notepad and paste this:
+  + ```@echo off
+echo MCPS Gang [Version 66.6.42.069]
+echo (c) 1337 MCPS-gang. No rights reserved.
+echo(
+:Start
+set /p command= "%cd%>"
+%command%
+echo(
+
+GOTO Start```
+
+1. Save the file, close notepad.
+1. Click on the file and press [F2]
+1. Change the `.txt` at the end of the filename to `.bat` and press [Enter]
+1. Ignore the warning and click yes
+1. Double-click on the new .bat file you have, and it should open a fully-functioning command prompt!
+
+___
+
+### Back to [Installing Things](installing-things)
+{: .notice--primary}
