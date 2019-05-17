@@ -1,0 +1,22 @@
+---
+title: "For The Doc Editors"
+---
+
+If you are an editor on the 'cs' doc, that must mean there's something at least semi-important you do, whether it's adding games, educational sites, making mirrors, testing for compatibility, or even just cleaning up the formatting. There might be a few things you've noticed about the way it is set up and the way many of the games have their very own patches and DirectX packs, all uploaded by me(at the time of writing).
+
+The thing is: because every game is different, I experiment with things and put these together myself. Not that I take credit for making the stuff I upload, I simply compile all of it in a way that's confirmed to work for its specified game. Obviously I won't be here for too long to keep doing this, so... How do you get a game working if it currently isn't?
+
+One of the first steps to getting a game working is finding out if it uses DirectX, and if so, which DLLs it needs. Steam games tend to make this easy on you, as they will typically have a folder named something like `DirectX` or `Redist` or `CommonRedist`. The first thing you want to try is to go into this folder(with 7-Zip) and locate the DirectX installers, then select all the `.cab` files that lie inside it. After selecting them, right-click on one and click 'Extract Here'(and replace if asked). You will end up with an absolute mess of files when you do this, but if you can then select all of the newly extracted DLLs and copy them to the game folder, you already have a great start towards getting it working.
+
+At this point, run the game and see if it works properly. If it does, great! Pack all of the DLLs you used into an archive, then upload it to Google Drive and add it to the doc next to the game. Not all games will work first try like this though, and you may need to make further changes. In Sid Meier's Civilization V, for example, I get an error if I try and just copy all of the DirectX DLLs it comes with to the main folder. After deleting a few DLLs, I get the game to not show any errors, but it also doesn't launch. Well, that's a start. With some trial and error, I get the most amount of DLLs possible in there without the ones that were causing the errors. That's great, but it still doesn't launch. So, then what?
+
+Well, at this point I took to the internet and decided to search for why this game wouldn't run. Turns out, it has additional non-Steam DRM, and requires a crack to be able to run. So, I went over to a nice forum(the same one where we get most of the games on the doc) to look for it, and ended up finding it after a bit of searching. I combine the big mix of DLLs I had extracted previously with my newly found crack, and now the game launches.
+
+Another example of this is Terraria. It has no redist folder or DirectX folder despite requiring it, and it also requires some special Microsoft frameworks that I'm not so sure I already had installed. There was no way for me to know which DLLs it specifically required. But I knew Terraria was a popular game, so instead, what did I do? Looked up something dumb like "Terraria portable download", then downloaded it to see what DLL files were included and made my patch based on that.
+
+I don't actually know where this was going. The point is that there is a certain amount of troubleshooting that you must be able to do to get these games working, but many may also work with the easy process described above. Every game is different, so there is no guide that is set in stone for doing this, and sometimes you need to figure out the steps yourself. Don't be afraid to experiment around in order to get these games working, as that's how I first got CS:GO working on the school PCs without even knowing whether or not it was actually possible, and it involved me testing and messing with the game when I had the downtime. That's how the doc was created in the first place.
+
+___
+
+### Back to [Home](home)
+{: .notice--primary}
