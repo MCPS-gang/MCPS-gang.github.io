@@ -11,10 +11,11 @@ The basics are done. From here, you can choose what you want to do.
 ### Options
 
 * [Install CS:GO](csgo)
-* [Install and play COD:BO2(coming soon)](404)
+* [Install and play COD:BO2](boii)
 * [Install a Steam game using SmartSteamEmu](SSE)
 * [Change your default 'STUDENT' wallpaper without installing anything](wallpaper)
 * [Install and set-up Wallpaper Engine](wpe)
 * [Install Dolphin Emulator(netplay build(coming soon))](404)
 * [Find your computer's IP for LAN games](ipcfg)
 * [Run an Admin-only Program as a Non-admin User](nonadmin)
+* [Run a fully-functioning command prompt](cmd)
