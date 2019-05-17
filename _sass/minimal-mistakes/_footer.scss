@@ -87,6 +87,7 @@
   
 html, body { height: 100%; }
 .gallery{
+  float: right;
     display: -webkit-flex;
     height: 100%;
     -webkit-align-items: flex-end;
@@ -94,15 +95,18 @@ html, body { height: 100%; }
 }
 /* this stops the shrinking of the items */
 .gallery a {
+  float: right;
     -webkit-flex-shrink: 0;
 }
 
 .gallery img{
+  float: right;
     display: inline-block;
     max-height: 10%;
 
 }
 .gallery img:target{
+  float: right;
     position: absolute;
     top: 0;
     max-height: 90%;
