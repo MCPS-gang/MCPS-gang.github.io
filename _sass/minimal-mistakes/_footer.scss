@@ -80,4 +80,33 @@
     padding-right: 10px;
     font-weight: bold;
   }
+  div#main{
+    text-align: center;
+    height: 100%;
+}
+  
+html, body { height: 100%; }
+.gallery{
+    display: -webkit-flex;
+    height: 100%;
+    -webkit-align-items: flex-end;
+    -webkit-justify-content: center;
+}
+/* this stops the shrinking of the items */
+.gallery a {
+    -webkit-flex-shrink: 0;
+}
+
+.gallery img{
+    display: inline-block;
+    max-height: 10%;
+
+}
+.gallery img:target{
+    position: absolute;
+    top: 0;
+    max-height: 90%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+}
 }
